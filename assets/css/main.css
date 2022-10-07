@@ -2301,8 +2301,8 @@ ul.items {
 }
 
 ul.alt li {
-  border-top: solid 2px #efefef;
-  padding: 0.5em 0;
+  /* border-top: solid 2px #efefef; */
+  padding: 0;
 }
 
 ul.alt li:first-child {
