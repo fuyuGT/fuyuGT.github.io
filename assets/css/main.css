@@ -2138,15 +2138,13 @@ input[type="radio"] + label:before {
   font-family: "Font Awesome 5 Brands";
 }
 
-.paperIcons >a{
-
-	padding: 0px 2px;
-	color: #787878;
-
+.paperIcons > a {
+  padding: 0px 2px;
+  color: #787878;
 }
 
-.paperIcons > a:hover{
-	color:#b3a369;
+.paperIcons > a:hover {
+  color: #b3a369;
 }
 
 /* Image */
@@ -2264,7 +2262,11 @@ input[type="radio"] + label:before {
   width: 100px;
   /* height: 100px; */
   border-radius: 50%;
-  object-fit:scale-down;
+  object-fit: scale-down;
+}
+
+.image.articleImage {
+  object-fit: contain;
 }
 
 /* List */
@@ -2294,9 +2296,9 @@ ul.alt {
   padding-left: 0;
 }
 ul.items {
-	list-style: none;
-	padding-left: 0;
-  }
+  list-style: none;
+  padding-left: 0;
+}
 
 ul.alt li {
   border-top: solid 2px #efefef;
@@ -3247,7 +3249,6 @@ body.is-touch .poptrox-popup .closer {
   #footer .icons {
     margin: 0 0 1em 0;
   }
-
 
   #footer .copyright {
     margin: 0 0 1em 0;
