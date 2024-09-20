@@ -3373,3 +3373,12 @@ body.is-touch .poptrox-popup .closer {
     padding-left: 0;
   }
 }
+
+.bw-logo {
+  filter: grayscale(100%);
+  transition: filter 0.3s ease; 
+}
+
+.bw-logo:hover {
+  filter: grayscale(0%); 
+}
