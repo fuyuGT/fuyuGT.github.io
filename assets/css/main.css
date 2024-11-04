@@ -197,7 +197,7 @@ textarea {
   font-family: "Source Sans Pro", Helvetica, sans-serif;
   font-size: 16pt;
   font-weight: 400;
-  line-height: 1.75em;
+  line-height: 1.5em;
 }
 
 a {
@@ -1584,19 +1584,19 @@ pre code {
 
   .row.gtr-150 {
     margin-top: 0;
-    margin-left: -2.25em;
+    margin-left: -1.5em;
   }
 
   .row.gtr-150 > * {
-    padding: 0 0 0 2.25em;
+    padding: 0 0 0 1.5em;
   }
 
   .row.gtr-150.gtr-uniform {
-    margin-top: -2.25em;
+    margin-top: -1.5em;
   }
 
   .row.gtr-150.gtr-uniform > * {
-    padding-top: 2.25em;
+    padding-top: 1.5em;
   }
 
   .row.gtr-200 {
@@ -1827,19 +1827,19 @@ pre code {
 
   .row.gtr-150 {
     margin-top: 0;
-    margin-left: -2.25em;
+    margin-left: -1.5em;
   }
 
   .row.gtr-150 > * {
-    padding: 0 0 0 2.25em;
+    padding: 0 0 0 1.5em;
   }
 
   .row.gtr-150.gtr-uniform {
-    margin-top: -2.25em;
+    margin-top: -1.5em;
   }
 
   .row.gtr-150.gtr-uniform > * {
-    padding-top: 2.25em;
+    padding-top: 1.5em;
   }
 
   .row.gtr-200 {
@@ -2190,7 +2190,7 @@ input[type="radio"] + label:before {
   font-size: 0.8em;
   font-weight: 400;
   left: 50%;
-  line-height: 2.25em;
+  line-height: 1.5em;
   margin: -1.25em 0 0 -3em;
   opacity: 0;
   padding: 0 1.5em;
@@ -2345,7 +2345,7 @@ ul.labeled-icons {
 ul.labeled-icons li {
   line-height: 1.75em;
   margin: 1.5em 0 0 0;
-  padding-left: 2.25em;
+  padding-left: 1.5em;
   position: relative;
 }
 
@@ -2844,9 +2844,8 @@ input[type="button"]:disabled,
 }
 
 #main > section {
-  border-top: solid 2px #efefef;
-  margin: 2em 0 0 0;
-  padding: 2em 0 0 0;
+  margin: 1em 0 0 0;
+  padding: 1em 0 0 0; 
 }
 
 #main > section:first-child {
@@ -3142,7 +3141,7 @@ body.is-touch .poptrox-popup .closer {
   input,
   select,
   textarea {
-    font-size: 12pt;
+    font-size: 14pt;
   }
 }
 
@@ -3173,7 +3172,7 @@ body.is-touch .poptrox-popup .closer {
   #footer .copyright li {
     border-left-width: 0;
     display: block;
-    line-height: 2.25em;
+    line-height: 1.5em;
     margin-left: 0;
     padding-left: 0;
   }
@@ -3314,7 +3313,7 @@ body.is-touch .poptrox-popup .closer {
   /* Header */
 
   #header {
-    padding: 2.25em 1.5em;
+    padding: 1.5em 1.5em;
   }
 
   #header h1 {
@@ -3330,12 +3329,12 @@ body.is-touch .poptrox-popup .closer {
   /* Main */
 
   #main {
-    padding: 2.25em 1.5em 0.25em 1.5em;
+    padding: 1.25em 1.25em 0.25em 1.25em;
   }
 
   #main > section {
-    margin: 2.25em 0 0 0;
-    padding: 2.25em 0 0 0;
+    margin: 1.5em 0 0 0;
+    padding: 1.5em 0 0 0;
   }
 
   /* Poptrox */
@@ -3368,7 +3367,7 @@ body.is-touch .poptrox-popup .closer {
   #footer .copyright li {
     border-left-width: 0;
     display: block;
-    line-height: 2.25em;
+    line-height: 1.5em;
     margin-left: 0;
     padding-left: 0;
   }
