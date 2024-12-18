@@ -2754,7 +2754,7 @@ input[type="button"]:disabled,
   /* color: rgba(255, 255, 255, 0.5); */
   height: 100vh;
   left: 0;
-  padding: 8em 4em;
+  padding: 4em 4em;
   position: fixed;
   text-align: right;
   top: 0;
@@ -2847,13 +2847,13 @@ input[type="button"]:disabled,
 #main {
   margin-left: 35%;
   max-width: 54em;
-  padding: 8em 4em 4em 4em;
+  padding: 4em 4em 4em 4em;
   width: calc(100% - 35%);
 }
 
 #main > section {
-  margin: 1em 0 0 0;
-  padding: 1em 0 0 0; 
+  margin: 0.75em 0 0 0;
+  padding: 0.5em 0 0 0; 
 }
 
 #main > section:first-child {
