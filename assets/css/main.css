@@ -3403,3 +3403,8 @@ body.is-touch .poptrox-popup .closer {
     display: none !important;
   }
 }
+
+
+em{
+  font-size: 0.75em;
+}
