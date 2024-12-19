@@ -1860,6 +1860,13 @@ pre code {
   }
 }
 
+@media (max-width: 576px) {
+  .bw-logo {
+      width: 80%;
+      max-width: none;
+      margin: 0 auto;
+  }
+}
 /* Section/Article */
 
 section.special,
