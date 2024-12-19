@@ -1860,13 +1860,7 @@ pre code {
   }
 }
 
-@media (max-width: 576px) {
-  .bw-logo {
-      width: 80%;
-      max-width: none;
-      margin: 0 auto;
-  }
-}
+
 /* Section/Article */
 
 section.special,
@@ -3389,22 +3383,63 @@ body.is-touch .poptrox-popup .closer {
 }
 
 .bw-logo {
-  filter: grayscale(100%);
-  transition: filter 0.3s ease;
+  width: 300px;
+  /* filter: grayscale(100%); */
+  /* transition: filter 0.3s ease; */
 }
 
-.bw-logo:hover {
+/* .bw-logo:hover {
   filter: grayscale(0%);
-}
+} */
 
 /* Ensure the image is hidden on small screens */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .bw-logo {
     display: none !important;
   }
-}
+} */
 
 
 em{
   font-size: 0.75em;
+}
+
+.publication {
+  display: flex; /* Align image and text horizontally */
+  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+  align-items: flex-start; /* Align items to the top */
+  margin-bottom: 2em; /* Add spacing between publications */
+}
+
+.publication .image {
+  width: 350px; /* Default width for large screens */
+  flex-shrink: 0; /* Prevent image from shrinking */
+  margin-right: 1.5em; /* Add space between image and text */
+}
+
+.publication .image img {
+  width: 100%;
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 0.35em; /* Optional: Rounded corners */
+}
+
+.publication .details {
+  flex: 1; /* Take remaining horizontal space */
+  max-width: calc(100% - 300px); /* Ensure text fits alongside the image */
+}
+
+@media (max-width: 768px) {
+  .publication {
+      flex-direction: column; /* Stack image and text vertically */
+  }
+
+  .publication .image {
+      width: 100%; /* Full-width image on smaller screens */
+      margin-right: 0; /* Remove spacing on smaller screens */
+      margin-bottom: 1em; /* Add space below the image */
+  }
+
+  .publication .details {
+      max-width: 100%; /* Allow text to take full width */
+  }
 }
