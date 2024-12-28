@@ -3445,24 +3445,12 @@ em{
 }
 
 
-/* Teaching Section */
-/* #teaching {
-  margin-top: 2em;
-  padding: 2em 0;
-  border-top: 2px solid #efefef;
-} */
 
-/* #teaching h2 {
-  font-size: 1.75em;
-  margin-bottom: 1em;
-  color: #555;
-  text-align: center;
-} */
 
 /* Card Container */
 .teaching-courses {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   gap: 1.5em;
   margin-top: 1em;
 }
