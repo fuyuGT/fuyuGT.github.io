@@ -3445,3 +3445,70 @@ em{
 }
 
 
+/* Teaching Section */
+/* #teaching {
+  margin-top: 2em;
+  padding: 2em 0;
+  border-top: 2px solid #efefef;
+} */
+
+/* #teaching h2 {
+  font-size: 1.75em;
+  margin-bottom: 1em;
+  color: #555;
+  text-align: center;
+} */
+
+/* Card Container */
+.teaching-courses {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5em;
+  margin-top: 1em;
+}
+
+/* Individual Card */
+.teaching-card {
+  background: #fff;
+  border-radius: 0.5em;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 1.5em;
+  border: 1px solid #e0e0e0;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.teaching-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.teaching-card h3 {
+  font-size: 1.2em;
+  margin-bottom: 0.5em;
+  color: #333;
+  border-bottom: 1px solid #efefef;
+  padding-bottom: 0.5em;
+}
+
+.teaching-card p {
+  margin: 0.5em 0;
+  font-size: 0.95em;
+  color: #666;
+}
+
+.teaching-card p strong {
+  font-weight: bold;
+  color: #444;
+}
+
+.teaching-card p em {
+  font-style: italic;
+  color: #555;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .teaching-courses {
+    grid-template-columns: 1fr;
+  }
+}
